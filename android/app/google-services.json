@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "840156034797",
+    "project_id": "gorev-yonetim",
+    "storage_bucket": "gorev-yonetim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840156034797:android:82f4c8287ff06c85983ee4",
+        "android_client_info": {
+          "package_name": "com.example.gorevyonetimand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840156034797-c4fcap3g1h0ve34t68f9p96noeki7nec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gorevyonetimand",
+            "certificate_hash": "f83df6ddc91822c9c30a2276e9e8faf06647bab5"
+          }
+        },
+        {
+          "client_id": "840156034797-gqq8hm9r8jiqtf2cfvsredvmvl8r3706.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSw5uHLsyTDZTxS0traZLifcQycMWnlB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840156034797-gqq8hm9r8jiqtf2cfvsredvmvl8r3706.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "840156034797-33n7gup37a3s3e6nrbb3j67krgjnblm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gorevYonetim"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

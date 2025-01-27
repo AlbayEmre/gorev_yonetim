@@ -1,0 +1,168 @@
+{
+    "home":{
+      "page1_title":"Home Page",
+      "page2_title":"My Tasks",
+      "page3_title":"Connected Tasks",
+      "page4_title":"Profile",
+       "login_title":"Log In",
+       "register_title":"Register",
+       "forgot_title":"Save Password",
+       "Settings":"Settings",
+       "Update_information":"Update information",
+       "create_new_task":"Create New Task",
+       "Task_Information":"Task information",
+       
+       "task_Importent_level_title":{
+            "low":"Minor",
+            "medium":"Moderate",
+            "exalted":"Critical"
+       },
+       "friends_screen":{
+        "title": "Friends",
+        "add_friends":"Add friends"
+       }
+    },
+    "text_field":
+    {
+        "e_mail_field":"E-Posta",
+        "password_field":"password",
+        "name_field":"Name",
+        "email_address_label_text":"Email address",
+         "password_lable_text":"Enter password",
+         "title":"Title",
+         "Task_description":"Task Description",
+         "Task_password":"Task password",
+         "are_you_sure":"Are you sure?",
+         "phone":"phone",
+         "Search_here":"Search here"
+    },
+    "label":{
+    "login_phone_text_choice":"Login With Phone:",
+    "register_phone_text_choice":"Register With Phone:",
+    "search_something":"Search task",
+    "created":"Created"
+    
+     },
+
+    "alert_dialog":{
+        "write_remote_task_password":"Write remote task password",
+        "add_friends":"Add friends",
+        "do_you_want_to_delete_your_profile":"Do you want to delete your profile?",
+        "Are_you_sure_you_want_to_clear_this_quest":"Are you sure you want to clear this quest",
+        "Deletion_successful":"Deletion successful"
+    },
+    "general":{
+        "button":{
+            "save":"Save",
+            "Recover_password":"Recover password",
+            "register":"Register",
+            "Login_with_google":"Sıng In with Google",
+            "register_go_to_login":"Log In...",
+            "login_go_to_register":"Register...",
+            "login_go_to_save_Password":"Recover...",
+            "Log_out":"Log out",
+            "cancel":"cancel",
+            "okay":"okay",
+            "delete_profile":"Delete Profile",
+            "enter_password":"Enter password",
+            "no":"No",
+            "yes":"Yes" 
+        },
+        "dialog":{
+
+             "no_data":{
+                "Remote_connection_task_not_found":"Remote connection task not found",
+                "No_task":"No task"
+             },
+            "entry_pages":{
+                "title":"version",
+                "content":"version info",
+                "Dont_have_an_account":"Don't have an account?",
+                "I_forgot_my_password":"I forgot my password. ",
+                "forget_screen_dark_title":"Forgot your password?",
+                "forget_screen_text":"Enter your email address and we will send you instructions to reset your password. "
+            },
+            "home":{
+                "news":"News",
+                "view_recently":"View recently",
+                "Filtered_tasks":"Filtered tasks"
+            },
+            "My_Tasks":{
+                "Add_a_text_here_bold":"Add a task here",
+                "Add_task_label_text":"Tasks added by you and owned by you appear here."
+            },
+            "Connected_Task":{
+                "No_Task_bold":"No Task",
+                "Label_text":"Remote connection task not found",
+                "Audio":"Audio"         
+            },
+            "Profile":
+            {
+                "Welcome_text":"Welcome",
+                "All_room_text":"All room keys",
+                "Active_Tasks":"Active Tasks",
+                "View_recently":"View recently",
+                "complated_text":"Complated"
+            },
+            "Settings":{
+                "Update_User_Information":"Update user information",
+                "Change_Language":"Change language"
+            },
+            "Create_new_task":{
+                "deadline":"Deadline",
+                "important_level":"Degree of edema",
+                "Owner_of_the_task":"Owner of the task",
+                "Type_remote_task_password":"Type remote task password",
+                "add_image":"Add image"
+
+            },
+            "Task_Information_screen":
+            {
+                "this_task_complated":"This task is completed",
+                "Task_deadline":"Task deadline"
+            },
+            "snackbar_text":{
+               "register":{
+                "Registe_falied":"Registration Failed",
+                "Please_try_again_later":"Please try again later.",
+                "Registration_Successful":"Registration Successful",
+                "You_have_been_successfully_registered":"You have been successfully registered",
+                "successful":"successful",
+                "Login_successful":"Login successful",
+                "Deletion_successful":"Deletion successful"
+               },
+               "forget_password":
+               {
+              "Email":"Email",
+              "Check_your_email":"Check your email"
+               },
+
+               "update_user":
+               {
+              "Success":"success",
+              "User_Update_Success":"User Update Success",
+              "Failed":"Failed",
+              "User_Update_Failed":"User Update Failed"
+               },
+
+               "Filtered_tasks":{
+              "Task_expired":"Task expired"
+               },
+
+               "add_task":{
+                "Success":"Success",
+                "Upgrade_Success":"Upgrade Success",
+                "Save_Success":"Save Success",
+                "Failure":"Failure",
+                "The_deadline_cannot_be_before_today":"The deadline cannot be before today"
+               }                    
+            },
+            "image_catch":{
+             "Camera":"Camera",
+             "Gallery":"Gallery"
+            }
+
+
+        }
+    }
+}

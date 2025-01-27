@@ -1,0 +1,81 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode") ?: "1"
+def flutterVersionName = localProperties.getProperty("flutter.versionName") ?: "1.0"
+
+android {
+    namespace = "com.example.gorevyonetimand"
+    compileSdk = 34
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.gorevyonetimand"
+        minSdk = 23
+        targetSdk = 34
+        versionCode = flutterVersionCode.toInteger()
+        versionName = flutterVersionName
+    }
+
+    signingConfigs {
+        release {
+            
+             keyAlias 'alias_name'  // 'alias_name' olarak değiştirin
+            keyPassword 'emre27'
+            storeFile file('C:/Users/Emre/Desktop/bloc_pattern_firebase_tut/my-release-key.keystore')
+            storePassword 'emre27'
+        }
+    }
+    
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            // Debug mod için varsayılan imza yapılandırması kullanılacak
+            signingConfig signingConfigs.debug
+        }
+    }
+    
+    android {
+    lintOptions {
+        baseline file("lint-baseline.xml")
+    }
+}
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.1.2')
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+
+    // implementation 'com.google.firebase:firebase-analytics'
+    // Diğer bağımlılıklar
+}
+
+apply plugin: 'com.google.gms.google-services'

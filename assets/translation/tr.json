@@ -1,0 +1,154 @@
+{
+    "home": {
+      "page1_title": "Ana Sayfa",
+      "page2_title": "Görevlerim",
+      "page3_title": "Bağlantılı Görevler",
+      "page4_title": "Profil",
+      "login_title": "Giriş Yap",
+      "register_title": "Kayıt Ol",
+      "forgot_title": "Şifre Kaydet",
+      "Settings": "Ayarlar",
+      "Update_information": "Bilgi Güncelle",
+      "create_new_task": "Yeni Görev Oluştur",
+      "Task_Information": "Görev Bilgisi",
+      "task_Importent_level_title": {
+        "low": "Düşük",
+        "medium": "Orta",
+        "exalted": "Kritik"
+      },
+      "friends_screen": {
+        "title": "Arkadaşlar",
+        "add_friends": "Arkadaş Ekle"
+      }
+    },
+    "text_field": {
+      "e_mail_field": "E-Posta",
+      "password_field": "Şifre",
+      "name_field": "İsim",
+      "email_address_label_text": "E-posta Adresi",
+      "password_lable_text": "Şifre Gir",
+      "title": "Başlık",
+      "Task_description": "Görev Tanımı",
+      "Task_password": "Görev Şifresi",
+      "are_you_sure": "Emin misiniz?",
+      "phone": "Telefon",
+      "Search_here": "Burada Ara"
+    },
+    "label": {
+      "login_phone_text_choice": "Telefon İle Giriş Yap:",
+      "register_phone_text_choice": "Telefon İle Kayıt Ol:",
+      "search_something": "Görev Ara",
+      "created": "Oluşturuldu"
+    },
+    "alert_dialog": {
+      "write_remote_task_password": "Uzaktan Görev Şifresi Yaz",
+      "add_friends": "Arkadaş Ekle",
+      "do_you_want_to_delete_your_profile": "Profilinizi Silmek İstiyor musunuz?",
+      "Are_you_sure_you_want_to_clear_this_quest": "Bu görevi temizlemek istediğinizden emin misiniz?",
+      "Deletion_successful": "Silme Başarılı"
+    },
+    "general": {
+      "button": {
+        "save": "Kaydet",
+        "Recover_password": "Şifreyi Kurtar",
+        "register": "Kayıt Ol",
+        "Login_with_google": "Google İle Giriş Yap",
+        "register_go_to_login": "Giriş Yap...",
+        "login_go_to_register": "Kayıt Ol...",
+        "login_go_to_save_Password": "Şifreyi Kurtar...",
+        "Log_out": "Çıkış Yap",
+        "cancel": "İptal",
+        "okay": "Tamam",
+        "delete_profile": "Profili Sil",
+        "enter_password": "Şifre Gir",
+        "no": "Hayır",
+        "yes": "Evet"
+      },
+      "dialog": {
+        "no_data": {
+          "Remote_connection_task_not_found": "Uzaktan Bağlantılı Görev Bulunamadı",
+          "No_task": "Görev Yok"
+        },
+        "entry_pages": {
+          "title": "Versiyon",
+          "content": "Versiyon Bilgisi",
+          "Dont_have_an_account": "Hesabınız Yok mu?",
+          "I_forgot_my_password": "Şifremi Unuttum.",
+          "forget_screen_dark_title": "Şifrenizi mi Unuttunuz?",
+          "forget_screen_text": "E-posta adresinizi girin, şifrenizi sıfırlamak için talimatları göndereceğiz."
+        },
+        "home": {
+          "news": "Haberler",
+          "view_recently": "Son Görüntülenenler",
+          "Filtered_tasks": "Filtrelenmiş Görevler"
+        },
+        "My_Tasks": {
+          "Add_a_text_here_bold": "Buraya Görev Ekle",
+          "Add_task_label_text": "Eklediğiniz ve sahip olduğunuz görevler burada görünür."
+        },
+        "Connected_Task": {
+          "No_Task_bold": "Görev Yok",
+          "Label_text": "Uzaktan Bağlantılı Görev Bulunamadı",
+          "Audio": "Ses"
+        },
+        "Profile": {
+          "Welcome_text": "Hoş Geldiniz",
+          "All_room_text": "Tüm Oda Anahtarları",
+          "Active_Tasks": "Aktif Görevler",
+          "View_recently": "Son Görüntülenenler",
+          "complated_text": "Tamamlandı"
+        },
+        "Settings": {
+          "Update_User_Information": "Kullanıcı Bilgilerini Güncelle",
+          "Change_Language": "Dili Değiştir"
+        },
+        "Create_new_task": {
+          "deadline": "Son Tarih",
+          "important_level": "Önem Derecesi",
+          "Owner_of_the_task": "Görev Sahibi",
+          "Type_remote_task_password": "Uzaktan Görev Şifresi Gir",
+          "add_image": "Resim Ekle"
+        },
+        "Task_Information_screen": {
+          "this_task_complated": "Bu Görev Tamamlandı",
+          "Task_deadline": "Görevin Son Tarihi"
+        },
+        "snackbar_text": {
+          "register": {
+            "Registe_falied": "Kayıt Başarısız",
+            "Please_try_again_later": "Lütfen Daha Sonra Tekrar Deneyin",
+            "Registration_Successful": "Kayıt Başarılı",
+            "You_have_been_successfully_registered": "Başarıyla Kayıt Oldunuz",
+            "successful": "Başarılı",
+            "Login_successful": "Giriş Başarılı",
+            "Deletion_successful": "Silme Başarılı"
+          },
+          "forget_password": {
+            "Email": "E-posta",
+            "Check_your_email": "E-postanızı Kontrol Edin"
+          },
+          "update_user": {
+            "Success": "Başarılı",
+            "User_Update_Success": "Kullanıcı Güncelleme Başarılı",
+            "Failed": "Başarısız",
+            "User_Update_Failed": "Kullanıcı Güncelleme Başarısız"
+          },
+          "Filtered_tasks": {
+            "Task_expired": "Görev Süresi Doldu"
+          },
+          "add_task": {
+            "Success": "Başarılı",
+            "Upgrade_Success": "Yükseltme Başarılı",
+            "Save_Success": "Kaydetme Başarılı",
+            "Failure": "Başarısız",
+            "The_deadline_cannot_be_before_today": "Son Tarih Bugünden Önce Olamaz"
+          }
+        },
+        "image_catch": {
+          "Camera": "Kamera",
+          "Gallery": "Galeri"
+        }
+      }
+    }
+  }
+  
