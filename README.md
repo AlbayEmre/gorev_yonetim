@@ -45,7 +45,7 @@ flutter pub get
 
 # 3. Uygulamayı başlat
 flutter run
-
+```
 
 lib/
 ├── main.dart                    # Giriş noktası
