@@ -45,7 +45,7 @@ flutter pub get
 
 # 3. Uygulamayı başlat
 flutter run
-```
+
 
 lib/
 ├── main.dart                    # Giriş noktası
@@ -62,7 +62,7 @@ lib/
 ├── services/                    # Firebase servisleri, API katmanı
 └── routes/                      # Sayfa yönlendirmeleri
 
-
+```
  Firebase Özellikleri
 🔐 firebase_auth – e-posta ve Google ile giriş
 
